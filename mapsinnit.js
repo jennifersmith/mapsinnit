@@ -1,14 +1,5 @@
 
 function initialize() {
-    var geocoder = new google.maps.Geocoder();
-
-    var postcodes = [
-	'SL59JH',
-	'LU13TQ',
-	'SR29TD',
-	'DA75BQ',
-	'EC1V9B'
-    ];
     var mapOptions = {
 	zoom: 7,
 	center: new google.maps.LatLng(53,-2), // 51 0 for london
